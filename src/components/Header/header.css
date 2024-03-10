@@ -1,0 +1,11 @@
+.site-header {
+  @apply py-6;
+}
+
+.site-header__wrapper {
+  @apply flex items-center justify-between;
+}
+
+.tham-inner {
+  @apply !bg-indigo-500;
+}

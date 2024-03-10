@@ -2,4 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Font families */
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/poppinsregular.woff2") format("woff2"), url("./assets/fonts/poppinsregular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-display: swap;
+  src: url("./assets/fonts/poppinsmedium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/poppinssemibold.woff2") format("woff2"), url("./assets/fonts/poppinssemibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-display: swap;
+  src: url("./assets/fonts/poppinsbold.woff2") format("woff2"), url("./assets/fonts/poppinsbold.woff") format("woff");
+}
+
 /* Mobile first */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", "Arial", sans-serif;
+  background-color: #000;
+}
+
+img {
+  display: block;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  max-width: 1640px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Sticky footer */
+
+.site-main {
+  flex-grow: 1;
+}
+
+/* Site header styles begin */
+
+/* Site header styles end */
+
+/* Site main begin */
+/* Hero styles started */
+
+/* Hero styles finished */
+/* Site main end */
+
+/* Site footer begin */
+
+/* Site footer end */
