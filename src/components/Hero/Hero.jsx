@@ -1,6 +1,6 @@
 export const Hero = () => {
   return (
-    <section className="hero pt-16 pb-32 min-[768px]:pt-24 min-[768px]:pb-40 min-[1024px]:pt-32 min-[1024px]:pb-[188px]">
+    <section className="hero pt-16 pb-20 min-[768px]:pt-24 min-[768px]:pb-40 min-[1024px]:pt-32 min-[1024px]:pb-[188px]">
       <div className="container">
         <div className="hero__title-wrapper">
           <h1

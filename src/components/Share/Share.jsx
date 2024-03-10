@@ -1,3 +1,3 @@
 export const Share = () => {
-  return <section>Share</section>;
+  return <section className="text-white">Share</section>;
 };
