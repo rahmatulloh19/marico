@@ -86,7 +86,7 @@ export const Header = () => {
             </ul>
           </div>
 
-          <div className={classNames(`min-[900px]:hidden tham tham-e-squeeze tham-w-6`, { "tham-active": opened })} onClick={handleClick}>
+          <div className={classNames(`min-[901px]:hidden tham tham-e-squeeze tham-w-6`, { "tham-active": opened })} onClick={handleClick}>
             <div className="tham-box">
               <div className="tham-inner bg-[#306EF7]" />
             </div>

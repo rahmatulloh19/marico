@@ -80,16 +80,8 @@ img {
   flex-grow: 1;
 }
 
-/* Site header styles begin */
-
-/* Site header styles end */
-
-/* Site main begin */
-/* Hero styles started */
-
-/* Hero styles finished */
-/* Site main end */
-
-/* Site footer begin */
-
-/* Site footer end */
+.hero__marked {
+  background: linear-gradient(90deg, #fe6783 1.9%, #ffbf84 97.1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
