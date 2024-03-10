@@ -1,4 +1,3 @@
-import "./header.css";
 import Logo from "../../assets/images/maricologo.svg";
 import classNames from "classnames";
 import { useState } from "react";
@@ -10,11 +9,11 @@ export const Header = () => {
     setOpened((prevValue) => !prevValue);
   };
   return (
-    <header className="site-header text-[#707070] text-xl font-medium relative">
+    <header className="site-header py-6 text-[#707070] text-xl font-medium relative">
       <div className="container">
-        <div className="site-header__wrapper">
-          <a className="block hover:opacity-80 active:opacity-70 transition" href="/">
-            <img src={Logo} width={140} alt="Marico logo" />
+        <div className="site-header__wrapper flex items-center justify-between">
+          <a className="site-logo block hover:opacity-80 active:opacity-70 transition" href="/">
+            <img className="site-logo__img min-[1024px]:w-[196px]" src={Logo} width={140} alt="Marico logo" />
           </a>
 
           <nav className="site-header__nav max-[900px]:hidden">
@@ -51,6 +50,7 @@ export const Header = () => {
             </a>
           </div>
 
+          {/* menu with hamburger menu */}
           <div className={classNames("absolute top-full hidden left-0 w-full", { "!block": opened })}>
             <ul className={`site-header__list flex gap-5 flex-col items-center min-[900px]:hidden`}>
               <li className="site-header__item">
@@ -88,7 +88,7 @@ export const Header = () => {
 
           <div className={classNames(`min-[900px]:hidden tham tham-e-squeeze tham-w-6`, { "tham-active": opened })} onClick={handleClick}>
             <div className="tham-box">
-              <div className="tham-inner" />
+              <div className="tham-inner bg-[#306EF7]" />
             </div>
           </div>
         </div>
