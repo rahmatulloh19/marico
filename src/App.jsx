@@ -1,6 +1,8 @@
 import { Article, Content, Creator, Email, Expert, Footer, Header, Helped, Hero, Share } from "./components";
+import AOS from "aos";
 
 function App() {
+  AOS.init();
   return (
     <>
       <Header />

@@ -17,7 +17,7 @@ export const Header = () => {
           </a>
 
           <nav className="site-header__nav max-[900px]:hidden">
-            <ul className={`site-header__list flex gap-5 min-[900px]:gap-10`}>
+            <ul className="site-header__list flex font-medium gap-5 min-[900px]:gap-10">
               <li className="site-header__item">
                 <a className="hover:text-[#306EF7] transition active:opacity-80" href="#">
                   Use Cases
@@ -52,7 +52,7 @@ export const Header = () => {
 
           {/* menu with hamburger menu */}
           <div className={classNames("absolute top-full hidden left-0 w-full", { "!block": opened })}>
-            <ul className={`site-header__list flex gap-5 flex-col items-center min-[900px]:hidden`}>
+            <ul className={`site-header__list font-medium flex gap-5 flex-col items-center min-[900px]:hidden`}>
               <li className="site-header__item">
                 <a className=" block transition hover:text-[#306EF7]" href="#">
                   Use Cases
