@@ -28,7 +28,7 @@ export const Email = () => {
                   Share content over email, text message or your homepage.
                 </li>
               </ol>
-              <div className="flex gap-[26px] items-center flex-col min-[1024px]:flex-row justify-center mb-4 min-[768px]:mb-5 min-[768px]:max-w-[448px]">
+              <div className="flex gap-[26px] items-center flex-col min-[1024px]:flex-row justify-center mb-4 min-[768px]:mb-5 min-[768px]:max-w-[450px] font-medium">
                 <a
                   className="inline-block text-white bg-[#326CF9] hover:opacity-80 active:opacity-65 transition p-3 min-[768px]:p-6 rounded-[10px] w-3/4 min-[768px]:w-full text-center grow min-[768px]:text-xl"
                   href="#"
