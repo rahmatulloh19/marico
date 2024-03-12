@@ -1,3 +1,5 @@
+import { ReactTyped } from "react-typed";
+
 export const Hero = () => {
   return (
     <section className="hero pt-16 pb-20 min-[768px]:pt-24 min-[768px]:pb-40 min-[1024px]:pt-32 min-[1024px]:pb-[188px]">
@@ -7,7 +9,10 @@ export const Hero = () => {
             className="text-white font-bold text-center text-[23px] min-[375px]:text-3xl min-[640px]:text-4xl min-[768px]:text-5xl min-[900px]:text-6xl min-[1024px]:text-7xl
          min-[1338px]:text-[112px] min-[1338px]:leading-[168px] mb-16 min-[768px]:mb-24 min-[1024px]:mb-32"
           >
-            Own your audience. <br /> <mark className="hero__marked">So you don't lose them</mark>
+            Own your audience. <br />{" "}
+            <mark className="hero__marked">
+              <ReactTyped strings={["So you don't lose them"]} typeSpeed={50} startDelay={100} />
+            </mark>
           </h1>
         </div>
         <div className="max-w-[278px] min-[768px]:max-w-[555px] min-[1280px]:max-w-[694px] mx-auto" data-aos="zoom-in-up" data-aos-delay="50">
