@@ -2,7 +2,7 @@ import image from "../../assets/images/marico.svg";
 
 export const Article = () => {
   return (
-    <article className="py-20 min-[768px]:py-36 min-[1024px]:py-[188px]">
+    <article className="py-20 min-[768px]:py-36 min-[1024px]:py-[188px]" data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
       <div className="max-w-fit mx-auto flex flex-col items-center">
         <img className="w-20 min-[768px]:w-32 min-[1024px]:w-auto mb-5" src={image} width={164} alt="Marico logo image" />
         <h2 className="text-center text-white font-semibold text-4xl min-[480px]:text-5xl min-[768px]:text-7xl min-[1024px]:text-[100px] min-[1024px]:leading-[150px]">Get Started Now</h2>
