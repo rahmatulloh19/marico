@@ -1,4 +1,7 @@
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 import image from "../../assets/images/expert.png";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
+import "@splidejs/splide/dist/css/splide.min.css";
 
 export const Expert = () => {
   return (
@@ -10,7 +13,30 @@ export const Expert = () => {
       >
         Experts Agree
       </h2>
-      <img src={image} alt="" />
+      <Splide
+        options={{
+          type: "loop",
+          arrows: false,
+          pagination: false,
+          drag: false,
+          perPage: 1,
+          autoScroll: {
+            pauseOnHover: false,
+            pauseOnFocus: false,
+            rewind: false,
+            speed: 0.5,
+          },
+        }}
+        extensions={{ AutoScroll }}
+      >
+        <SplideSlide>
+          <img src={image} alt="" />
+        </SplideSlide>
+        <SplideSlide>
+          <img src={image} alt="" />
+        </SplideSlide>
+      </Splide>
+      {/* <img src={image} alt="Showed users' opinions" /> */}
     </section>
   );
 };
