@@ -85,3 +85,8 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.helped {
+  background-image: url("/src/assets/images/helped.png");
+  background-repeat: repeat-x;
+}
