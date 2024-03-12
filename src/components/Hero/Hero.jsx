@@ -1,4 +1,5 @@
 import { ReactTyped } from "react-typed";
+import CountUp from "react-countup";
 
 export const Hero = () => {
   return (
@@ -49,7 +50,9 @@ export const Hero = () => {
                 fill="#0FC65C"
               />
             </svg>
-            <strong className="text-white inline-block">1000+</strong>
+            <strong className="text-white inline-block">
+              <CountUp end={1000} duration={2} />+
+            </strong>
             <p className="text-[#707070]">creators have already started</p>
           </div>
         </div>
