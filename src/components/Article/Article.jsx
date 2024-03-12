@@ -1,4 +1,5 @@
 import image from "../../assets/images/marico.svg";
+import CountUp from "react-countup";
 
 export const Article = () => {
   return (
@@ -31,7 +32,9 @@ export const Article = () => {
               fill="#0FC65C"
             />
           </svg>
-          <strong className="text-white inline-block">1000+</strong>
+          <strong className="text-white inline-block">
+            <CountUp enableScrollSpy end={1000} />+
+          </strong>
           <p className="text-[#707070]">creators have already started</p>
         </div>
       </div>
