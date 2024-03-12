@@ -20,7 +20,7 @@ export const Content = () => {
           </a>
         </div>
         <div className="share__content justify-center grid max-[767px]:grid-rows-2 min-[768px]:grid-cols-2 gap-6 min-[768px]:items-center">
-          <div className="text-white flex flex-col items-center max-w-[686px] min-[1419px]:items-start shrink-0">
+          <div className="text-white flex flex-col items-center max-w-[686px] min-[1419px]:items-start shrink-0" data-aos="zoom-in-right" data-aos-delay="50">
             <strong className="font-medium text-sm min-[1024px]:mb-20 mb-7 min-[768px]:text-[30px] min-[768px]:leading-[45px]text-left">Your Homepage</strong>
             <div className="title-wrapper min-[480px]:max-w-[75%] min-[1024px]:max-w-full">
               <h3 className="text-white text-center min-[1280px]:text-[75px] min-[1280px]:leading-[112px] text-xl font-bold min-[375px]:text-2xl min-[768px]:text-4xl min-[768px]:text-left min-[1024px]:text-5xl mb-5 min-[768px]:mb-[27px]">
@@ -53,6 +53,7 @@ export const Content = () => {
           </div>
           <img
             className="-order-1 min-[768px]:mb-0 min-[768px]:order-1 max-[767px]:max-w-lg min-[768px]:translate-x-6 justify-self-start max-[767px]:w-full max-[767px]:mx-auto"
+            data-aos="zoom-in-left"
             src={image}
             width={820}
             alt="In the image showed Charlie Puth and his music"

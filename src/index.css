@@ -92,3 +92,11 @@ img {
   background-image: url("/src/assets/images/helped.png");
   background-repeat: repeat-x;
 }
+
+@media only screen and (max-width: 427px) {
+  .aos-init,
+  .aos-animate {
+    opacity: 1 !important;
+    transform: translate(0) scale(1) !important;
+  }
+}

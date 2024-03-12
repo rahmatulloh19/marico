@@ -10,7 +10,7 @@ export const Hero = () => {
             Own your audience. <br /> <mark className="hero__marked">So you don't lose them</mark>
           </h1>
         </div>
-        <div className="max-w-[278px] min-[768px]:max-w-[555px] min-[1280px]:max-w-[694px] mx-auto">
+        <div className="max-w-[278px] min-[768px]:max-w-[555px] min-[1280px]:max-w-[694px] mx-auto" data-aos="zoom-in-up" data-aos-delay="50">
           <strong className="block mb-5 min-[768px]:mb-9 min-[1280px]:mb-[50px] font-medium text-white min-[768px]:text-[32px] min-[768px]:leading-[50px] min-[1280px]:text-[40px] min-[1280px]:leading-[60px] text-center">
             Turn your audience into email and text message subscribers.
           </strong>

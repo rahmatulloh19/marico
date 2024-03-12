@@ -3,7 +3,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
-  AOS.init();
+  AOS.init({
+    anchorPlacement: "bottom-bottom",
+  });
   return (
     <>
       <Header />

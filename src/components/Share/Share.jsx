@@ -14,14 +14,14 @@ export const Share = () => {
           </p>
         </div>
         <ul className="share__content grid max-[767px]:grid-rows-2 min-[768px]:grid-cols-2 gap-[23px]">
-          <li className="flex flex-col pt-5 pl-7 min-[768px]:pt-[33px] min-[768px]:pl-[45px] bg-[#0D0D0D]">
+          <li className="flex flex-col pt-5 pl-7 min-[768px]:pt-[33px] min-[768px]:pl-[45px] bg-[#0D0D0D]" data-aos="zoom-in-right">
             <strong className="text-[#0FC65C] font-normal mb-3 min-[768px]:mb-6 min-[768px]:text-xl min-[1024px]:text-[30px] min-[1024px]:leading-[45px]">One link</strong>
             <h3 className="text-white font-semibold text-4xl min-[768px]:text-5xl min-[1280px]:text-[80px] grow min-[1280px]:leading-[120px] mb-[14px]">
               <mark className="bg-transparent block text-[#919191]">ALL You Create.</mark> One Link
             </h3>
             <img className="w-5/6 self-end" src={image} alt="" />
           </li>
-          <li className="flex flex-col pt-5 pl-7 min-[768px]:pt-[33px] min-[768px]:pl-[45px] bg-[#0D0D0D]">
+          <li className="flex flex-col pt-5 pl-7 min-[768px]:pt-[33px] min-[768px]:pl-[45px] bg-[#0D0D0D]" data-aos="zoom-in-left" data-aos-delay="50">
             <strong className="text-[#0FC65C] font-normal mb-10 min-[1280px]:mb-[96px] min-[768px]:text-xl min-[1024px]:text-[30px] min-[1024px]:leading-[45px]">Collect Subscribers</strong>
             <h3 className="text-white font-semibold text-4xl min-[768px]:text-5xl min-[1280px]:text-[80px] grow min-[1280px]:leading-[120px] mb-[14px]">
               <mark className="bg-transparent block text-[#919191]">

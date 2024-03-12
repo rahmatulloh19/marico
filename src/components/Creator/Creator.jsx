@@ -6,7 +6,7 @@ export const Creator = () => {
           Why Creators Love Marico
         </h2>
         <ul className="flex justify-center flex-col gap-y-10 items-center min-[1024px]:gap-x-[107px] gap-x-[75px] min-[768px]:flex-row">
-          <li className="max-w-md">
+          <li className="max-w-md" data-aos="zoom-in-up">
             <div className="flex items-center gap-2 justify-center mb-2.5">
               <svg className="w-6 min-[768px]:w-[37px]" width={37} height={37} viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="18.4999" cy="18.5002" r="18.5" fill="#FFD93B" />
@@ -41,7 +41,7 @@ export const Creator = () => {
             </div>
             <p className="text-[#707070] text-center min-[1536px]:text-[22px] min-[1536px]:leading-[33px]">Never worry about losing your audience.</p>
           </li>
-          <li className="max-w-md">
+          <li className="max-w-md" data-aos="zoom-in-up" data-aos-delay="100">
             <div className="flex items-center gap-2 justify-center mb-2.5">
               <svg className="w-6 min-[768px]:w-[32px]" width={32} height={32} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx={16} cy="16.0002" r={16} fill="#FFD93B" />
@@ -100,7 +100,7 @@ export const Creator = () => {
             </div>
             <p className="text-[#707070] text-center min-[1536px]:text-[22px] min-[1536px]:leading-[33px]">Just share one link. We'll handle the rest.</p>
           </li>
-          <li className="max-w-md">
+          <li className="max-w-md" data-aos="zoom-in-up" data-aos-delay="200">
             <div className="flex items-center gap-2 justify-center mb-2.5">
               <svg className="w-7 min-[768px]:w-[44px]" width={44} height={43} viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
